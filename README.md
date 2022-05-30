@@ -27,7 +27,9 @@ sd(difff)
 ```
 
 Hasil 
-![image](https://user-images.githubusercontent.com/100200062/170904027-6193c2c9-6f96-4031-b64b-85c36adcf3e3.png)
+
+![image](https://user-images.githubusercontent.com/100200062/170907663-736b50c8-d0a1-49b8-a761-78080dd2f129.png)
+
 
 ### 1b
 carilah nilai t (p-value)
@@ -47,7 +49,9 @@ abs(meanX - meanY) / sqrt((variansX/9) + (variansY/9))
 ```
 
 Hasil 
-![image](https://user-images.githubusercontent.com/100200062/170904114-28065986-de7c-4be1-b2b7-49007962c08a.png)
+
+![image](https://user-images.githubusercontent.com/100200062/170907686-b51de663-bff8-458f-bc36-130733405c67.png)
+
 
 ### 1c
 tentukanlah apakah terdapat pengaruh yang signifikan secara statistika
@@ -62,7 +66,8 @@ t.test(X, Y)
 ```
 
 Hasil
-![image](https://user-images.githubusercontent.com/100200062/170904165-ae125a0f-9cfd-41a8-99e9-c72b9bbbd6e9.png)
+
+![image](https://user-images.githubusercontent.com/100200062/170907708-6d7faee0-6f20-4cbb-ad18-8d977dc2158a.png)
 
 
 # Soal 2
@@ -87,7 +92,8 @@ library(BSDA)
 tsum.test(mean.x=23500, sd(3900), n.x=100)
 ```
 
-![image](https://user-images.githubusercontent.com/100200062/170904290-c5088a7d-62b0-4b19-8b07-ec471f87799e.png)
+![image](https://user-images.githubusercontent.com/100200062/170907730-204a8216-e4ed-42fa-b604-8d4bc9bb806f.png)
+
 
 Dapat disimpulkan bahwa mobil dikemudikan rata-rata lebih dari 20.000 km per-tahun. 
 
@@ -122,10 +128,10 @@ plotDist(dist='t', df=2, col="blue")
 qchisq(p = 0.05, df = 2, lower.tail=FALSE)
 ```
 Hasil 
-![image](https://user-images.githubusercontent.com/100200062/170906110-d5ac8687-66be-4de4-994a-ea2aaa8641da.png)
-![image](https://user-images.githubusercontent.com/100200062/170906124-1cab8804-4aac-413a-95b1-facd385383c8.png)
-![image](https://user-images.githubusercontent.com/100200062/170906134-51e8275e-631d-4996-946a-7c2e7035b10e.png)
-![image](https://user-images.githubusercontent.com/100200062/170906291-b8c9bbc8-82d8-4620-962a-829540ff140f.png)
+
+![image](https://user-images.githubusercontent.com/100200062/170907754-045d7d5a-c838-4d2d-847c-22610483b26d.png)
+![image](https://user-images.githubusercontent.com/100200062/170907763-6e9a8a20-8d14-4ad3-86c4-e725928d4724.png)
+![image](https://user-images.githubusercontent.com/100200062/170907777-061ea965-eb51-400f-ba94-36c62adab94a.png)
 
 
 Keputusan dan kesimpulannya adalah tidak ada perbedaan antara Bali dan Bandung.
@@ -161,7 +167,8 @@ qqnorm(Group1$Length)
 qqline(Group1$Length)
 ```
 
-![image](https://user-images.githubusercontent.com/100200062/170906469-97b4fc05-69a0-456e-81a4-db4df80b2cba.png)
+![image](https://user-images.githubusercontent.com/100200062/170907821-3f083a0e-8597-4688-bdfe-f6386995f33d.png)
+
 
 
 Kucing Hitam
@@ -169,7 +176,8 @@ Kucing Hitam
 qqnorm(Group2$Length)
 qqline(Group2$Length)
 ```
-![image](https://user-images.githubusercontent.com/100200062/170906477-2a712a4a-29c6-4f07-b877-b7982b700bdb.png)
+
+![image](https://user-images.githubusercontent.com/100200062/170907841-2b5f1fd3-7ee8-402f-a67b-55931e5972db.png)
 
 
 Kucing Putih 
@@ -177,7 +185,8 @@ Kucing Putih
 qqnorm(Group3$Length)
 qqline(Group3$Length)
 ```
-![image](https://user-images.githubusercontent.com/100200062/170906494-a764bd83-548b-48aa-bf2e-b1e9500f899e.png)
+
+![image](https://user-images.githubusercontent.com/100200062/170907856-221161b0-c377-430d-9db0-91aa3e9bbc48.png)
 
 
 ### 4b
@@ -210,7 +219,8 @@ H0 Diterima
 ### 4f
 
 Hasil 
-![image](https://user-images.githubusercontent.com/100200062/170906667-048785b0-4f15-4411-8bf5-b4477a4acf13.png)
+
+![image](https://user-images.githubusercontent.com/100200062/170907890-acbd1b49-6275-431c-981c-5832d1ed66fe.png)
 
 # Soal 5
 **Deskripsi:**
@@ -235,7 +245,8 @@ my.data <- read_csv("GTL.csv")
 qplot(x = Temp, y = Light, geom = "point", data = my.data) + facet_grid(.~Glass, labeller = label_both)
 ```
 Hasil 
-![image](https://user-images.githubusercontent.com/100200062/170906961-bbf3fad7-bb4f-4c4e-8baa-f065fdf5f0cb.png)
+
+![image](https://user-images.githubusercontent.com/100200062/170907921-3e5c1808-2765-4ec9-9e31-78bbe5ea0337.png)
 
 ### 5b
 Lakukan uji ANOVA dua arah
@@ -249,6 +260,7 @@ summary(anova)
 ```
 
 Hasil 
+
 ![image](https://user-images.githubusercontent.com/100200062/170907065-d9adb86d-2bea-4bf4-a738-c39186c0bc1b.png)
 
 ### 5c
@@ -262,6 +274,7 @@ data.sum <- group_by(my.data, Glass, Temp) %>%
 print(data.sum)
 ```
 Hasil 
+
 ![image](https://user-images.githubusercontent.com/100200062/170907144-52409fc6-33cb-473f-9360-86d42b3dcc59.png)
 
 ### 5d 
@@ -271,7 +284,10 @@ TukeyHSD(anova)
 ```
 
 Hasil 
+
 ![image](https://user-images.githubusercontent.com/100200062/170907198-8045d41f-e3ca-4a8f-b611-da086032ae15.png)
+![image](https://user-images.githubusercontent.com/100200062/170908016-42bf107d-8301-46bc-8eec-a3ba68ef2278.png)
+
 
 ### 5e
 Gunakan compact letter display untuk menunjukkan perbedaan signifikan
@@ -287,4 +303,5 @@ print(data.sum)
 ```
 
 Hasil 
+
 ![image](https://user-images.githubusercontent.com/100200062/170907345-ae18331c-0f94-4301-bcd1-80cd48a607a4.png)
